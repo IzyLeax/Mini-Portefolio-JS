@@ -1,0 +1,53 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 130%;
+    height: 150%;
+}
+
+.nightmode{
+    display: flex;
+    text-align: center;
+}
+
+.styled {
+    width: 400px;
+    
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(8, 237, 31);
+    border-radius: 10px;
+    background-color: rgb(0, 7, 225); 
+}
+
+.styled:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 0, 0, 0.6),
+                inset 2px 2px 3px rgba(0, 248, 12, 0.6);
+}
+
+
+
+a:visited {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    list-style-type: none;
+    }
+  
+.red {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+
+.texte{
+    display: flex;
+    font-family: 'Racing Sans One', cursive;
+    color: rgb(255, 0, 0);
+}
